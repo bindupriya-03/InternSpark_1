@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.app {
+    width: 90%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative Shapes */
+.square {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #2196f3, #21cbf3);
+    opacity: 0.3;
+    border-radius: 20px;
+}
+
+.circle {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(circle, #42e695, #3bb2b8);
+    opacity: 0.35;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #2196f3;
+    color: white;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #1976d2;
+}
+
+.weather {
+    text-align: center;
+}
+
+.weather img {
+    width: 90px;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+}
+
+.city {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.details div {
+    text-align: center;
+    color: #444;
+}
+
+.location-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    cursor: pointer;
+}
+
+.location-btn:hover {
+    background: #0097a7;
+}
